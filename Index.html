@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>You Tube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="yt-navbar p-2 shadow sticky-top bg-white">
+        <div class="contanier-fliud">
+            <div class="row">
+                <div class="col-md-3">
+                    <button class="btn round-btn" id="menu-btn"> <i class="bi bi-list"></i> </button>
+                    <img class="logo" src="images/Screenshot 2025-08-10 181739.png" alt="ytlogo">
+                </div>
+                <div class="col-md-6">
+                    <div class="yt-searchbar d-flex ">
+                        <div class="input-group  ">
+                            <input type="search" class="form-control" placeholder="Search" />
+                            <button class="input-group-text" id="basic-addon2"><i class="bx bx-search"></i></span>
+                        </div>
+                        <button class="btn round-btn ms-2"><i class="bi bi-mic-fill"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-end ">
+                        <button class="btn  round-btn2 fs-6 text-center "><i class="bi bi-plus-lg fs-4"></i><span
+                                class=" p-2">Create</span></button>
+                        <button class=" btn round-btn text-center ms-2"><i class="bi bi-bell-fill"></i></button>
+                        <button class="btn round-btn ms-2"><i class="bi bi-person-fill"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="yt-main-area">
+        <div class="yt-sidebar overflow-sidebar" id="side-bar">
+            <ul>
+                <li><a href="" class="active"><i class="bi bi-house-fill fs-5 me-3  "></i><span>Home </span></a></li>
+                <li><a href=""><i class="bi bi-play-circle-fill fs-5 me-3 "></i> Shorts</a></li>
+                <li><a href=""><i class="bi bi-youtube fs-5 me-3"></i> Subscription</a></li>
+                <li>
+                    <hr>
+                </li>
+                <li><a href="" class=""> You >> </a></li>
+                <li><a href="" class=""><i class="bi bi-clock-history fs-5 me-3  "></i> History</a></li>
+                <li><a href="" class=""><i class="bi bi-list-check fs-5 me-3  "></i> Playlist</a></li>
+                <li><a href=""><i class="bi bi-play-circle-fill fs-5 me-3 "></i> Your videos</a></li>
+                <li><a href=""><i class="bi bi-clock fs-5 me-3"></i> Watch later</a></li>
+                <li><a href=""><i class="bi bi-hand-thumbs-up fs-5 me-3"></i> Liked videos</a></li>
+                <li><a href=""><i class="bi bi-film fs-5 me-3"></i> Your clips</a></li>
+                <li>
+                    <hr>
+                </li>
+                <li><a href="" class="fw-bold">Subscriptions</a></li>
+                <li><a href=""><i class="bi bi-hand-thumbs-up fs-5 me-3"></i> Liked videos</a></li>
+                <li><a href=""><i class="bi bi-film fs-5 me-3"></i> Your clips</a></li>
+                <li><a href=""><i class="bi bi-hand-thumbs-up fs-5 me-3"></i> Liked videos</a></li>
+                <li><a href=""><i class="bi bi-film fs-5 me-3"></i> Your clips</a></li>
+                <li><a href=""><i class="bi bi-hand-thumbs-up fs-5 me-3"></i> Liked videos</a></li>
+                <li><a href=""><i class="bi bi-film fs-5 me-3"></i> Your clips</a></li>
+                <li>
+                    <hr>
+                </li>
+                <li><a href="" class="fw-bold">Explore</a></li>
+                <li><a href=""><i class="bi bi-bag-heart fs-5 me-3"></i> Shoping</a></li>
+                <li><a href=""><i class="bi bi-music-note-beamed fs-5 me-3"></i>Music</a></li>
+                <li><a href=""><i class="bi bi-camera-reels-fill fs-5 me-3"></i> Movies</a></li>
+                <li><a href=""><i class="bi bi-broadcast-pin fs-5 me-3"></i>Live</a></li>
+                <li><a href=""><i class="bi bi-controller fs-5 me-3"></i>Gaming</a></li>
+                <li><a href=""><i class="bi bi-newspaper fs-5 me-3"></i>News</a></li>
+                <li><a href=""><i class="bi bi-trophy fs-5 me-3"></i>Sports</a></li>
+                <li><a href=""><i class="bi bi-mortarboard fs-5 me-3"></i> Courses</a></li>
+                <li><a href=""><i class="bx bx-dress fs-5 me-3"></i>Fashion & Beauty</a></li>
+                <li><a href=""><i class="bx bx-podcast fs-5 me-3"></i>Podcast</a></li>
+               <li>
+                    <hr>
+                </li>
+                
+
+
+            </ul>
+
+
+        </div>
+        <div class="yt-content" id="contet-area">
+            <div class="yt-batch-area mb-4">
+                <a href="">All</a>
+                <a href="">Music</a>
+                <a href="">Mix</a>
+                <a href="">Music playlist</a>
+                <a href="">Studios</a>
+                <a href="">Live</a>
+                <a href="">Recent videos</a>
+                <a href="">plays</a>
+                <a href="">Mix</a>
+                <a href="">Marvel</a>
+                <a href="">Studios</a>
+                <a href="">Mix</a>
+                <a href="">Marvel</a>
+                <a href="">Studios</a>
+                <a href="">Live</a>
+                <a href="">Recent videos</a>
+                <a href="">plays</a>
+                <a href="">Mix</a>
+                <a href="">Marvel</a>
+                <a href="">Studios</a>
+                <a href="">Live</a>
+                <a href="">Recent</a>
+                <a href="">plays</a>
+            </div>
+
+
+            <div class="yt-videos-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="yt-video-card mt-2">
+                                <iframe class="w-75" height="210"
+                                    src="https://www.youtube.com/embed/bhPMvyNuQq8?si=Y72ueKhywEF_Dyiq"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <div class=" d-flex mt-2">
+                                    <div>
+                                        <button class="btn round-btn"><i class="bx bx-user"></i></button>
+                                    </div>
+                                    <div class="ms-2">
+                                        <h5 class="video-title">Supersatr Raginikanth Speech | Coolie Unleashed| Sun TV
+                                        </h5>
+                                        <p class="video-tag">Coolie movie launch</p>
+                                        <label>427M views</label>-<label> 2 days ago</label>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="yt-video-card mt-2">
+                                <iframe class="w-75" height="210"
+                                    src="https://www.youtube.com/embed/bhPMvyNuQq8?si=Y72ueKhywEF_Dyiq"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <div class=" d-flex mt-2">
+                                    <div>
+                                        <button class="btn round-btn"><i class="bx bx-user"></i></button>
+                                    </div>
+                                    <div class="ms-2">
+                                        <h5 class="video-title">Supersatr Raginikanth Speech | Coolie Unleashed| Sun TV
+                                        </h5>
+                                        <p class="video-tag">Coolie movie launch</p>
+                                        <label>427M views</label>-<label> 2 days ago</label>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="yt-video-card mt-2">
+                                <iframe class="w-75" height="210"
+                                    src="https://www.youtube.com/embed/bhPMvyNuQq8?si=Y72ueKhywEF_Dyiq"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <div class=" d-flex mt-2">
+                                    <div>
+                                        <button class="btn round-btn"><i class="bx bx-user"></i></button>
+                                    </div>
+                                    <div class="ms-2">
+                                        <h5 class="video-title">Supersatr Raginikanth Speech | Coolie Unleashed| Sun TV
+                                        </h5>
+                                        <p class="video-tag">Coolie movie launch</p>
+                                        <label>427M views</label>-<label> 2 days ago</label>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="yt-video-card mt-2">
+                                <iframe class="w-75" height="210"
+                                    src="https://www.youtube.com/embed/bhPMvyNuQq8?si=Y72ueKhywEF_Dyiq"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <div class=" d-flex mt-2">
+                                    <div>
+                                        <button class="btn round-btn"><i class="bx bx-user"></i></button>
+                                    </div>
+                                    <div class="ms-2">
+                                        <h5 class="video-title">Supersatr Raginikanth Speech | Coolie Unleashed| Sun TV
+                                        </h5>
+                                        <p class="video-tag">Coolie movie launch</p>
+                                        <label>427M views</label>-<label> 2 days ago</label>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="yt-video-card mt-2">
+                                <iframe class="w-75" height="210"
+                                    src="https://www.youtube.com/embed/bhPMvyNuQq8?si=Y72ueKhywEF_Dyiq"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <div class=" d-flex mt-2">
+                                    <div>
+                                        <button class="btn round-btn"><i class="bx bx-user"></i></button>
+                                    </div>
+                                    <div class="ms-2">
+                                        <h5 class="video-title">Supersatr Raginikanth Speech | Coolie Unleashed| Sun TV
+                                        </h5>
+                                        <p class="video-tag">Coolie movie launch</p>
+                                        <label>427M views</label>-<label> 2 days ago</label>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="yt-video-card mt-2">
+                                <iframe class="w-75" height="210"
+                                    src="https://www.youtube.com/embed/bhPMvyNuQq8?si=Y72ueKhywEF_Dyiq"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <div class=" d-flex mt-2">
+                                    <div>
+                                        <button class="btn round-btn"><i class="bx bx-user"></i></button>
+                                    </div>
+                                    <div class="ms-2">
+                                        <h5 class="video-title">Supersatr Raginikanth Speech | Coolie Unleashed| Sun TV
+                                        </h5>
+                                        <p class="video-tag">Coolie movie launch</p>
+                                        <label>427M views</label>-<label> 2 days ago</label>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="yt-video-card mt-2">
+                                <iframe class="w-75" height="210"
+                                    src="https://www.youtube.com/embed/bhPMvyNuQq8?si=Y72ueKhywEF_Dyiq"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <div class=" d-flex mt-2">
+                                    <div>
+                                        <button class="btn round-btn"><i class="bx bx-user"></i></button>
+                                    </div>
+                                    <div class="ms-2">
+                                        <h5 class="video-title">Supersatr Raginikanth Speech | Coolie Unleashed| Sun TV
+                                        </h5>
+                                        <p class="video-tag">Coolie movie launch</p>
+                                        <label>427M views</label>-<label> 2 days ago</label>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="yt-video-card mt-2">
+                                <iframe class="w-75" height="210"
+                                    src="https://www.youtube.com/embed/bhPMvyNuQq8?si=Y72ueKhywEF_Dyiq"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <div class=" d-flex mt-2">
+                                    <div>
+                                        <button class="btn round-btn"><i class="bx bx-user"></i></button>
+                                    </div>
+                                    <div class="ms-2">
+                                        <h5 class="video-title">Supersatr Raginikanth Speech | Coolie Unleashed| Sun TV
+                                        </h5>
+                                        <p class="video-tag">Coolie movie launch</p>
+                                        <label>427M views</label>-<label> 2 days ago</label>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>

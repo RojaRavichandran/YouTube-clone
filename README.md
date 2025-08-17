@@ -17,6 +17,6 @@ A frontend YouTube clone built using HTML, CSS, JS, Bootstrap,Boxicons.
 - Built with clean, structured HTML, CSS, and JavaScript
 
 # Future Improvements
-Add video playback using YouTube API
-Implement dark mode toggle
-Add user login/signup functionality
+- Add video playback using YouTube API
+- Implement dark mode toggle
+- Add user login/signup functionality
